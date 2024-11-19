@@ -1,0 +1,477 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(./images/bg-hero-mobile.svg) ;
+    background-repeat: no-repeat;
+    background-color: hsl(193, 100%, 96%);
+}
+header{
+    width: 100%;
+    height: 60%;
+
+}
+
+nav{
+    margin: 20px 15px 60px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header img{
+    width: 100px;
+}
+
+header button{
+    padding: 6px 24px;
+    box-shadow:2px 2px 12px hsla(240, 11%, 41%, 0.27);
+    border-radius: 20px;
+    border-bottom: none;
+    background-color: white;
+    border: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+header button:hover{
+    color:rgba(125, 125, 125, 0.696);
+}
+
+.containercard{
+    background-color: white;
+    
+}
+.container1{
+    font-family: "Open Sans", sans-serif;
+    padding: 20px;
+
+}
+
+.container1 h1{
+    padding: 16px;
+    font-size: 24px;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+.container1 p{
+    padding-left: 14px;
+    padding-right: 14px;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 400;
+}
+
+.container1 button{
+    padding: 10px 58px;
+    box-shadow:2px 2px 12px hsla(295, 11%, 41%, 0.27);
+    border-radius: 30px;
+    border-bottom: none;
+    background-color: hsl(322, 100%, 66%);
+    border: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+}
+
+.container1 button:hover{
+    background-color: hsl(322, 100%, 82%) ;
+}
+
+.container1 img{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+}
+
+.containercard{
+background-color: white;
+position: relative;
+bottom: -30px;
+    }
+
+.container2{
+    font-family: "Poppins", sans-serif;
+    
+}
+.card1{
+    background-color: white;
+    box-shadow:2px 2px 12px hsla(295, 11%, 41%, 0.27);
+    width: 90%;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 48px;
+    padding-bottom: 24px;
+margin-bottom: 30px;
+border-radius: 20px;
+}
+
+.card1 img{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+
+}
+
+.container2 h2{
+    padding-top: 64px;
+    font-size: 18px;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+.container2 p{
+    padding-top: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(208, 11%, 55%);
+
+}
+
+.card2{
+    background-color: white;
+    box-shadow:2px 2px 12px hsla(295, 11%, 41%, 0.27);
+    width: 90%;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 24px;
+margin-bottom: 30px;
+border-radius: 20px;
+position: relative;
+bottom: -60px;
+}
+
+.card2 h2{
+    font-size: 18px;
+    padding-top: 32px;
+}
+.card2 button{
+    padding: 10px 58px;
+    box-shadow:2px 2px 12px hsla(295, 11%, 41%, 0.27);
+    border-radius: 30px;
+    border-bottom: none;
+    background-color: hsl(322, 100%, 66%);
+    border: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.card2 button:hover{
+    background-color: hsl(322, 100%, 82%);
+}
+
+footer{
+padding-top: 120px;
+padding-left: 32px;
+    background-color:hsl(192, 100%, 9%) ;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 42px;
+}
+
+.logo img{
+    width: 130px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+    color: white;
+    gap: 24px;
+    font-size: 14px;
+    font-weight: 200;
+}
+.location img{
+    width: auto;
+    height: 16px;
+    margin-top: 6px;
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    align-items: top;
+}
+
+.phone img{
+    width: auto;
+    height: 16px;
+    
+}
+
+
+.phone{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    align-items: center;
+}
+
+.email img{
+    width: auto;
+    height: 16px;
+}
+
+
+.email{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    align-items: center;
+    margin-bottom: 42px;
+}
+
+.aboutus{
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 6px;
+}
+
+.aboutus p{
+    padding-top: 12px;
+}
+
+.aboutus p:hover{
+    text-decoration: underline;
+}
+
+.career{
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 6px;
+}
+
+.career p{
+    padding-top: 12px;
+}
+
+.career p:hover{
+    text-decoration: underline;
+}
+
+.socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 42px;
+    filter:brightness(500%);
+
+}
+
+.socialmedia img{
+    width: 18px;
+}
+
+.socialmedia img:hover{
+    filter: blur(1px);
+}
+
+.copyright{
+    text-align: center;
+    font-size: 12px;
+    padding: 16px;
+}
+
+.attribution{
+    text-align: center;
+    font-size: 10px;
+    padding: 8px;
+
+}
+
+.attribution a{
+    color: white;
+    text-decoration: none;
+}
+
+@media (min-width:376px){
+nav{
+    margin: 72px;
+}
+body{
+    background-image:url(./images/bg-hero-desktop.svg) ;
+    background-repeat: no-repeat;
+}
+
+header{
+    padding-bottom:32px;
+}
+
+header img{
+    width: 200px;
+    margin-left: 12px;
+}
+
+header button{
+    padding: 12px 64px;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+.container1{
+    height: 650px;
+}
+.container1 h1{
+    font-size: 42px;
+text-align: left;
+width: 40%;
+margin: 48px;
+}
+
+.container1 p{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    width: 41%;
+    margin: 48px;
+}
+
+.container1 button{
+    float: left;
+    margin: 48px;
+padding: 20px 72px;
+    font-size: 16px;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.container1 img{
+    position: relative;
+right: -50px;
+    bottom: 400px;
+    width: 60%;
+    padding-left: 130px;
+
+}
+.card1{
+    width: 85%;
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+padding: 50px 14px;
+}
+
+.card1 h2{
+    font-size: 24px;
+    text-align: left;
+    width: 80%;
+    margin-left: 68px;
+    padding-top: 0;
+}
+
+.card1 p{
+    font-size: 16px;
+    text-align: left;
+    width: 80%;
+    margin-left: 48px;
+}
+
+.card1 img{
+width: 35%;
+padding-right: 16px;
+
+}
+
+.card2{
+    width: 60%;
+}
+.card2 h2{
+    font-size: 32px;
+
+}
+.card2 button{
+    padding: 20px 78px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.logo img{
+    width: 130px;
+}
+
+.footer-container{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;    
+}
+
+.info{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer-container p{
+    font-size: 12px;
+}
+.location{
+    width: 400px;
+}
+
+.socialmedia{
+    justify-content: left;
+    margin-left: 0;
+    margin-top: 20px;
+    position: relative;
+    left: -100px;
+
+}
+.copyright{
+text-align: right;
+position: relative;
+top:-70px;
+left: 30px;
+}
+
+}
+
+
